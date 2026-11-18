@@ -1,0 +1,103 @@
+/*CSS Backgrounds*/
+/*CSS Backgrounds*/
+/*
+-background-color
+-background-image
+-background-repeat
+-background-attachment
+-background-position
+-background (shorthand property)
+*/
+/*
+All CSS Background Properties
+Property--------------------Description
+background	                Sets all the background properties in one declaration
+background-attachment	    Sets whether a background image is fixed or scrolls with the rest of the page
+background-clip	            Specifies the painting area of the background
+background-color	        Sets the background color of an element
+background-image	        Sets the background image for an element
+background-origin	        Specifies where the background image(s) is/are positioned
+background-position	        Sets the starting position of a background image
+background-repeat	        Sets how a background image will be repeated
+background-size	            Specifies the size of the background image(s)
+
+*/
+
+
+/*background-color*/
+body {
+    background-color: lightblue;
+}
+
+/*Other Elements*/
+h1 {
+    background-color: green;
+}
+
+div {
+    background-color: lightblue;
+}
+
+p {
+    background-color: yellow;
+}
+
+/*Opacity / Transparency*/
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+/*Transparency using RGBA*/
+div {
+    background: rgba(0, 128, 0, 0.3);
+}
+
+/*CSS Background Image*/
+/*background-image*/
+body {
+    background-image: url("image.jpg"); /*jpg*/
+    background-image: url("paper.gif"); /*gif*/
+}
+
+
+/*CSS Background Image Repeat*/
+/*background-repeat*/
+body {
+    background-image: URL("image_bg.png");
+}
+
+/*background-repeat Horizontally*/
+body {
+    background-image: url("image_bg.png");
+    background-repeat: repeat-x;
+}
+
+/*background-repeat: no-repeat*/
+body {
+    background-image: url("image_bg.png");
+    background-repeat: no-repeat;
+}
+
+/*background-position*/
+body {
+    background-image: url("image_hello.png");
+    background-repeat: no-repeat;
+    background-position: rigth top;
+}
+
+/*CSS Background Attachment*/
+/*background-attachment*/
+body {
+    background-attachment: fixed;
+}
+/*/*background-attachment (scroll with the rest of the page)*/
+body {
+    background-attachment: scroll;
+}
+
+/*CSS Background Shorthand*/
+/*background - Shorthand property*/
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}

@@ -1,0 +1,27 @@
+/*Missing Semicolons*/
+.bad {
+  color: red
+  background-color: yellow;
+}
+
+/*Invalid Property Names*/
+.bad {
+  colr: blue;
+  font-size: 16px;
+}
+
+/*Invalid Values*/
+.bad {
+  width: -100px;
+  color: green;
+}
+
+/*Unclosed Braces*/
+.bad {
+  padding: 20px;
+  margin: 10px;
+
+/*Extra Colons or Braces*/
+.bad {
+  color:: blue;
+}

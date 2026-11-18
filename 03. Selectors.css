@@ -1,2 +1,63 @@
+/*All CSS Simple Selectors*/
+/*
+Selector-------------Example--------Example description
+#id	                 #firstname 	Selects the element with id="firstname"
+.class	             .intro	        Selects all elements with class="intro"
+*	                    *	        Selects all elements
+element         	    p	        Selects all <p> elements
+element,element,..	   div, p	    Selects all <div> elements and all <p> elements
+*/
+
 /*CSS Selectors*/
-/*Selectors*/
+/*CSS element Selector*/
+p {
+    text-align: center;
+    color: blue;
+}
+
+/*CSS ID Selector*/
+#para1 {
+    text-align: center;
+    color: blue;
+}
+
+/*CSS class Selector*/
+.center {
+    text-align: center;
+    color: aqua;
+}
+
+/*CSS class Selector (<p> and class="center")*/
+p.center {
+    text-align: center;
+    color: red;
+}
+
+/*CSS class Selector (<p> to class="center" and to class="large")*/
+<p class="center large">This paragraph refers to two classes.</p>
+
+/*CSS Grouping Selectors*/
+/*CSS Universal Selector*/
+* {
+  text-align: center;
+  color: blue;
+}
+
+/*CSS Grouping Selector*/
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+    color: beige;
+}
+p {
+    text-align: center;
+    color: cadetblue;
+}
+/*CSS Grouping Selector (grouped)*/
+h1, h2, p {
+    text-align: center;
+    color: aliceblue;
+}

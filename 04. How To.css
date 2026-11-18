@@ -1,0 +1,45 @@
+/*External CSS*/
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+/*Add Internal CSS*/
+/*Internal CSS*/
+<style>
+body {
+    background-color: linen;
+}
+h1 {
+    color: maroon;
+    margin-left: 10px;
+}
+
+</style>
+
+/*Add Inline CSS*/
+/*Inline CSS*/
+<body>
+<h1 style="color:blue;text-align:center;"This is a heading</h1>
+<p style="color:blue;">This is a paragraph</p>
+</body>
+
+/*Multiple Style Sheets & Cascading Order*/
+/*Multiple Style Sheets*/
+/*external style sheet*/
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+h1 {
+    color: navy;
+}
+</style>
+</head>
+/*internal style sheet*/
+<head>
+<style>
+h1 {
+    color: orange;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
