@@ -1,0 +1,60 @@
+/*CSS Margins*/
+/*Margins*/
+/*Margin - Individual Sides*/
+/*
+margin-top           - sets the top margin of an element
+margin-right        - sets the right margin of an element
+margin-bottom   - sets the bottom margin of an element
+margin-left         - sets the left margin of an element
+*/
+
+/*All CSS Margin Properties
+Property------------Description
+margin	                         A shorthand property for setting all the margin properties in one declaration
+margin-bottom	        Sets the bottom margin of an element
+margin-left	                Sets the left margin of an element
+margin-right	            Sets the right margin of an element
+margin-top	                Sets the top margin of an element
+*/
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px
+}
+
+/*Margin - Shorthand Property*/
+p {
+    margin: 20px 50px 70px 100px;
+}
+
+/*The auto Value*/
+div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/*The inherit Value*/
+div {
+    border: 1px solid red;
+    margin-left: solid;
+}
+p.ex1 {
+    margin-left: inherit;
+}
+
+/*CSS Margin Collapse*/
+/*Margin Collapse*/
+h1 {
+    margin-bottom: 50px;
+}
+h2 {
+    margin-top: 50px;
+}
+/*Demonstration of margin collapse*/
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
